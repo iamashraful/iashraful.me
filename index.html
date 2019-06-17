@@ -20,11 +20,10 @@
 		<link type="text/css" rel="stylesheet" media="all" href="style.css">
 		<link id="tile-colorscheme-css" type="text/css" rel="stylesheet" media="all" href="css/color-1.css">
 		<link type="text/css" rel="stylesheet" media="all" href="css/responsive.css">
-		<link type="text/css" rel="stylesheet" media="all" href="css/blog.css">
 		<script type="text/javascript" src="js/modernizr.js"></script>
 	</head>
-	<body>
-		
+	<body id="app">
+
 		<!-- Preloader -->
 		<div class="preloader">
 			<div class="preloader-inner">
@@ -44,7 +43,7 @@
 			</div>
 		</div>
 		<!--/ Preloader -->
-		
+
 
 		<!-- Header -->
 		<header class="header header-hidden shadow-bg">
@@ -62,7 +61,7 @@
 			</div> -->
 		</header>
 		<!--/ Header -->
-		
+
 
 		<!-- Nav Menu -->
 		<nav class="main-nav hidden hero-height">
@@ -83,14 +82,14 @@
 		</nav>
 		<!--/ Nav Menu -->
 
-		
+
 		<!-- Top Section -->
 		<div class="site-header top-section top-section-home image-bg parallax-section" data-image-bg="img/bg/bg-1.jpg">
 			<div class="overlay-section"></div>
 		</div>
 		<!--/ Top Section -->
 
-		
+
 		<!-- About Section -->
 		<section id="about-section" class="about-section">
 			<div class="section-content">
@@ -102,7 +101,7 @@
 									<div class="about-img-content image-bg shadow-bg layer" data-depth="0.1" data-image-bg="img/me.jpg">
 										<a target="_blank" href="https://www.visualcv.com/mr-ashraful/pdf/" class="btn-circle tooltipped layer shadow-bg" data-position="top" data-delay="50" data-tooltip="Download Resume" data-depth="0.25"><span class="fa fa-download"></span></a>
 									</div>
-									<div class="about-name">Ashraful Islam</div>
+									<div class="about-name">{{ message }}</div>
 									<div class="about-title">Software Engineer</div>
 								</div>
 								<div class="col m7 s12 about-data-wrapper pd-50">
@@ -110,12 +109,12 @@
 										<div class="about-section-title">About Me</div>
 										<div class="about-data">
 											<p>
-												I am a CS graduate. I love to make a good recipe of codes, open source enthusiast, 
-												team player, self motivated and quick learner. I love music, movies, hacking. 
-												I am big fan Python & JS (Specially ES6). 
+												I am a CS graduate. I love to make a good recipe of codes, open source enthusiast,
+												team player, self motivated and quick learner. I love music, movies, hacking.
+												I am big fan Python & JS (Specially ES6).
 												Already started loving the architechture of facebook flux with React, vuex with VueJS and GraphQL API.
 											</p>
-											
+
 											<!-- If you want to add signature then uncomment the following img element -->
 											<!-- <img src="img/signature.png" alt=""/> -->
 
@@ -140,7 +139,7 @@
 		</section>
 		<!--/ About Section -->
 
-		
+
 		<!-- Service Section -->
 		<section id="service-section" class="service-section">
 			<div class="container">
@@ -164,7 +163,7 @@
 								</div>
 								<div class="service-desc">
 									<p>
-										I use VueJS for my all primary and secondary application at frontend side. 
+										I use VueJS for my all primary and secondary application at frontend side.
 										React is my second choice on it. Before React and VueJS I used Angular 1.x since 2016.
 									</p>
 								</div>
@@ -185,8 +184,8 @@
 								</div>
 								<div class="service-desc">
 									<p>
-										I use Python for as my primary tool to develop a system. 
-										To interact with web I mostly use Django and Django REST Framework. 
+										I use Python for as my primary tool to develop a system.
+										To interact with web I mostly use Django and Django REST Framework.
 										I also expose REST and GraphQL API.
 									</p>
 								</div>
@@ -207,7 +206,7 @@
 								</div>
 								<div class="service-desc">
 									<p>
-										I use React Native for mobile application development. 
+										I use React Native for mobile application development.
 										But now-a-days I am loving Dart and Flutter for app development.
 										A long ago I had used Ionic for hybrid app development.
 									</p>
@@ -221,7 +220,7 @@
 		</section>
 		<!--/ Service Section -->
 
-		
+
 		<!-- Skill Section -->
 		<section id="skill-section" class="skill-section">
 			<div class="container">
@@ -231,7 +230,7 @@
 					</div>
 					<div class="col s12">
 						<div class="col s12 section-content skill-wrapper w-block shadow-bg pdt-50 pdr-40 pdb-50 pdl-40">
-							
+
 							<!-- Progress bar Left -->
 							<div class="col l6 s12 skill-data">
 
@@ -345,7 +344,7 @@
 		</section>
 		<!--/ Skill Section -->
 
-		
+
 		<!-- Education Section -->
 		<section id="education-section" class="education-section">
 			<div class="container">
@@ -416,7 +415,7 @@
 		</section>
 		<!--/ Education Section -->
 
-		
+
 		<!-- Experience Section -->
 		<section id="experience-section" class="experience-section">
 			<div class="container">
@@ -426,7 +425,7 @@
 					</div>
 					<div class="col s12">
 						<div class="col s12 section-content pd-0">
-							<ul class="timeline">							
+							<ul class="timeline">
 
 								<!-- Single Experience - Left Side -->
 								<li class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.3s" data-wow-offset="0">
@@ -442,8 +441,8 @@
 										</div>
 										<div class="timeline-desc">
 											<p>
-												I worked with Python, Django, Django REST Framework, AngularJS (Angular 1.*). 
-												We had custom solutions for every customers. 
+												I worked with Python, Django, Django REST Framework, AngularJS (Angular 1.*).
+												We had custom solutions for every customers.
 												We always expose REST API for angular application.
 											</p>
 										</div>
@@ -466,8 +465,8 @@
 										</div>
 										<div class="timeline-desc">
 											<p>
-												I'm working on backend side with Python, Django and Django REST Framework. 
-												We have web based solutions for Sales system, Monitoring system, Survey system. 
+												I'm working on backend side with Python, Django and Django REST Framework.
+												We have web based solutions for Sales system, Monitoring system, Survey system.
 												We expose API for mobile application.
 											</p>
 										</div>
@@ -509,7 +508,7 @@
 		</section>
 		<!--/ Experience Section -->
 
-		
+
 		<!-- Portfolio Section -->
 		<section id="portfolio-section" class="portfolio-section">
 			<div class="container">
@@ -518,7 +517,7 @@
 						<h2>Portfolio</h2>
 					</div>
 					<div class="col s12">
-						<div class="col s12 section-content pd-0">					
+						<div class="col s12 section-content pd-0">
 							<ul class="filter">
 								<li><a class="active" href="#" data-filter="*">All</a></li>
 								<li><a href="#" data-filter=".python">Python</a></li>
@@ -527,7 +526,7 @@
 								<li><a href="#" data-filter=".vuejs">VueJS</a></li>
 								<li><a href="#" data-filter=".react">React</a></li>
 							</ul>
-							
+
 							<ul class="portfolio-items">
 
 								<!-- Single Portfolio -->
@@ -694,7 +693,7 @@
 		</section>
 		<!--/ Portfolio Section -->
 
-		
+
 		<!-- Reference Section -->
 		<section id="reference-section" class="reference-section">
 			<div class="container">
@@ -705,7 +704,7 @@
 					<div class="col s12">
 						<div class="reference-wrapper col s12 w-block shadow-bg">
 							<div class="reference-carousel">
-								
+
 								<!-- Single Reference -->
 								<div class="item">
 									<div class="reference-img">
@@ -780,7 +779,7 @@
 		</section>
 		<!--/ Reference Section -->
 
-		
+
 		<!-- Client Section -->
 		<section id="client-section" class="client-section">
 			<div class="container">
@@ -790,7 +789,7 @@
 					</div>
 					<div class="col s12 client-wrapper">
 						<div class="col s12 client-carousel w-block shadow-bg pd-0">
-							
+
 							<!-- Single Client -->
 							<div class="item">
 								<img src="img/client/c-1.png" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Alien valley" alt="">
@@ -846,7 +845,7 @@
 		</section>
 		<!--/ Client Section -->
 
-		
+
 		<!-- Blog Section -->
 		<section id="blog-section" class="blog-section">
 			<div class="container">
@@ -854,68 +853,35 @@
 					<div class="col s12 section-title">
 						<h2>Blog</h2>
 					</div>
-						
-					<div class="col s12 masonry pd-0">
 
-						<div id="blog-container">
-
-						</div>
-						
+					<div class="col s12 pd-0" id="dev-blog" style="height: 1100px;">
 						<!-- Single Blog -->
-						<div class="col m6 s12 mgt-20">
+						<div class="col m6 s12 mgt-20" v-for="post in posts" :key="post.id">
 							<div class="col s12 blog-wrapper w-block shadow-bg pd-0 wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.3s" data-wow-offset="0">
-								<div class="col s12 blog-img pd-0 image-bg" data-image-bg="img/blog/b-1.jpg">
-									<a class="blog-date waves-effect waves-light" href="artchive.html">Jan 22, 2018</a>
+								<div class="col s12 blog-img pd-0 image-bg">
+                                    <img :src="post.cover_image" v-if="post.cover_image"/>
+									<a class="blog-date waves-effect waves-light" :href="post.url" target="_blank">{{ post.published_at | humanDate }}</a>
 								</div>
 								<div class="col s12 blog-desc pd-30">
 									<div class="blog-title">
-										<a href="single-blog.html">Awesome Blog Title</a>
+										<a :href="post.url" target="_blank">{{ post.title }}</a>
 									</div>
 									<div class="blog-data">
-										<a href="archive.html" class="waves-effect"><span class="fa fa-user"></span>By John Doe</a>
-										<a href="single-blog.html#comment-section" class="waves-effect"><span class="fa fa-comments"></span>5 Comments</a>
+										<a href="http://dev.to/ashraful" target="_blank" class="waves-effect"><span class="fa fa-user"></span>{{ post.user.name }}</a>
+										<span class="fa fa-comments"></span> {{ post.comments_count }} Comments
+										<span class="fa fa-heart"></span> {{ post.positive_reactions_count }} Reactions
 									</div>
 									<div class="blog-content">
 										<p>
-											Lorem ipsum dolor sit amet, ne usu eius animal, nam accusata conceptam ea.
-											Qui ut prima aliquip reprehendunt, eos ex nibh libris delectus, an has liber
-											melius constituto. Epicuri mediocrem vis ex.
+											{{ post.description }}
 										</p>
 									</div>
 									<div class="blog-more">
-										<a href="single-blog.html" class="btn-custom waves-effect mgt-10 mgb-10">Read More</a>
+										<a :href="post.url" target="_blank" class="btn-custom waves-effect mgt-10 mgb-10">Read More</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<!-- Single Blog -->
-						
-						<!-- Single Blog -->
-						<div class="col m6 s12 mgt-20">
-							<div class="col s12 blog-wrapper w-block shadow-bg pd-0 wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.3s" data-wow-offset="0">
-								<div class="col s12 blog-img pd-0 image-bg" data-image-bg="img/blog/b-1.jpg">
-									<a class="blog-date waves-effect waves-light" href="artchive.html">Jan 22, 2018</a>
-								</div>
-								<div class="col s12 blog-desc pd-30"><div class="blog-title"><a href="single-blog.html">Awesome Blog Title</a></div>
-									<div class="blog-data">
-										<a href="archive.html" class="waves-effect"><span class="fa fa-user"></span>By John Doe</a>
-										<a href="single-blog.html#comment-section" class="waves-effect"><span class="fa fa-comments"></span>5 Comments</a>
-									</div>
-									<div class="blog-content">
-										<p>
-											Lorem ipsum dolor sit amet, ne usu eius animal, nam accusata conceptam ea.
-											Qui ut prima aliquip reprehendunt, eos ex nibh libris delectus, an has liber
-											melius constituto. Epicuri mediocrem vis ex.
-										</p>
-									</div>
-									<div class="blog-more">
-										<a href="single-blog.html" class="btn-custom waves-effect mgt-10 mgb-10">Read More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Single Blog -->
-
 					</div>
 
 					<div class="col s12 blog-all al-center">
@@ -926,7 +892,7 @@
 		</section>
 		<!--/ Blog Section -->
 
-		
+
 		<!-- Pricing Section -->
 		<section id="pricing-section" class="pricing-section">
 			<div class="container">
@@ -936,7 +902,7 @@
 					</div>
 
 					<div class="col s12 masonry pd-0">
-						
+
 						<!-- Single Pricing Table -->
 						<div class="col l4 m6 s12 mgt-20">
 							<div class="cols12 pricing-wrapper pd-0 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.3s" data-wow-offset="0">
@@ -1022,7 +988,7 @@
 		</section>
 		<!--/ Pricing Section -->
 
-		
+
 		<!-- Contact Section -->
 		<section id="contact-section" class="contact-section">
 			<div class="container">
@@ -1034,12 +1000,12 @@
 						<div class="col l5 s12 contact-map">
 							<div class="col s12 w-block shadow-bg pd-0">
 								<div class="col s12 g-map-wrapper pd-0">
-									<div id="g-map" 
+									<div id="g-map"
 										data-latitude="40.713652"
 										data-longitude="-74.0079417"
 										data-mapstyle="1"
 										data-map-marker="img/marker.png"
-									>	
+									>
 									</div>
 								</div>
 							</div>
@@ -1085,7 +1051,7 @@
 		</section>
 		<!--/ Contact Section -->
 
-		
+
 		<!-- Footer Section -->
 		<footer class="footer">
 			<div class="container">
@@ -1097,29 +1063,34 @@
 						<div class="copyright-text">
 							&copy; All rights Reserved.
 						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!--/ Footer Section -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/ Footer Section -->
 
 
-		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/animatescroll.js"></script>
-		<script type="text/javascript" src="js/materialize.min.js"></script>
-		<script type="text/javascript" src="js/device.min.js"></script>
-		<script type="text/javascript" src="js/parallax.js"></script>
-		<script type="text/javascript" src="js/jquery.parallax.js"></script>
-		<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-		<script type="text/javascript" src="js/isotope.js"></script>
-		<script type="text/javascript" src="js/magnific-popup.js"></script>
-		<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-		<script type="text/javascript" src="js/owl.carousel.js"></script>
-		<script type="text/javascript" src="js/smoothscroll.js"></script>
-		<script type="text/javascript" src="js/waypoints.min.js"></script>
-		<script type="text/javascript" src="js/wow.js"></script>
-		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA2HHs3D24pZzCk6EgJQHEcSstKy8vAOls"></script>
-		<script type="text/javascript" src="js/custom.js"></script>
-		<script type="text/javascript" src="js/dev-blog.js"></script>
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <!-- VUEJS APP -->
+                <script type="text/javascript" src="js/vue-app/vue.js"></script>
+<!--        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+        <script type="text/javascript" src="js/vue-app/app.js"></script>
+
+        <script type="text/javascript" src="js/animatescroll.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/device.min.js"></script>
+        <script type="text/javascript" src="js/parallax.js"></script>
+        <script type="text/javascript" src="js/jquery.parallax.js"></script>
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/isotope.js"></script>
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
+        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/smoothscroll.js"></script>
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+        <script type="text/javascript" src="js/wow.js"></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA2HHs3D24pZzCk6EgJQHEcSstKy8vAOls"></script>
+
+        <script type="text/javascript" src="js/custom.js"></script>
 	</body>
 </html>
